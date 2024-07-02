@@ -8,6 +8,13 @@ function LoginPage() {
     event.preventDefault();
     // 🐨 Todo: Exercise #4
     //  นำ Function `login` ใน AuthContext มา Execute ใน Event Handler ตรงนี้
+    const data = {
+      username,
+      password,
+      firstName,
+      lastName,
+    }
+    login(data)
   };
 
   return (

@@ -10,6 +10,13 @@ function RegisterPage() {
     event.preventDefault();
     // 🐨 Todo: Exercise #2
     // นำ Function `register` ใน AuthContext มา Execute ใน Event Handler ตรงนี้
+    const data = {
+      username,
+      password,
+      firstName,
+      lastName,
+    }
+    register(data)
   };
 
   return (

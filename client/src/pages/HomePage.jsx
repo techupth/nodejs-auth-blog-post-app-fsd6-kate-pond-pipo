@@ -31,7 +31,11 @@ function HomePage() {
            // 🐨 Todo: Exercise #7
           //  นำ Function `logout` จาก AuthContext มา Execute ใน Prop `onClick`
         */}
-        <button>Logout</button>
+        <button
+        onClick={() => {
+          navigate("/logout")
+        }}
+        >Logout</button>
       </div>
       <div className="search-box-container">
         <div className="search-box">
